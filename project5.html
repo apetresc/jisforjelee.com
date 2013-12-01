@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maluuba</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/jisforjelee.css" />
     <script src="js/modernizr.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
+    <script src="js/stickynav.js"></script>
   </head>
   <body>
     
@@ -27,7 +32,8 @@
     <hr />
 
     <div class="row">
-      <div class="large-5 medium-5 columns">
+      <div id="sidebar" class="large-5 medium-5 columns">
+        <div id="sidebar-float" data-magellan-expedition="fixed" class="floating-fixed-width">
           <h4>Maluuba</h4>
           <p> Maluuba is a personal assistant app that focuses on natural language processing and allows users to search for a wide variety of domains including weather, directions, and local restaurants and businesses. Users can also organize their day with alarms, reminders, and calendar events, as well as stay connected with friends on Facebook, Twitter, and FourSquare. Currently available on the Google Play Store and Windows 8 Phone Store, Maluuba has over 500k downloads since its launch at TechCrunch Disrupt in September 2012. </p>
 
@@ -59,7 +65,7 @@
               </a>
             </div>
           </div>
-
+        </div>
       </div>     
 
       <div class="large-7 medium-7 columns">
