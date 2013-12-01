@@ -7,3 +7,7 @@
     left: auto;
     padding-top: 10px;
 }
+
+.floating-fixed-width-disabled {
+    position: static !important;
+}
