@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Relations within a Music Composition</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/jisforjelee.css" />
     <script src="js/modernizr.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/foundation/foundation.magellan.js"></script>
+    <script src="js/stickynav.js"></script>
   </head>
   <body>
     
@@ -27,7 +32,8 @@
     <hr />
 
     <div class="row">
-      <div class="large-5 medium-5 columns">
+      <div id="sidebar" class="large-5 medium-5 columns">
+        <div id="sidebar-float" data-magellan-expedition="fixed" class="floating-fixed-width">
           <h4>Relations within a Music Composition</h4>
           <p> An information design piece demonstrating relations between four instruments in Gregor Peters-Ray's <i>Melancholic Op.11/2b</i>. The circular shape of the graph, imitating the rounded seating of an auditorium, allows one's eyes to easily travel through the piece in one direction, unlike convention sheet music that uses rows of staffs. The different colours, their tints and hues, and the positioning of each shape represents an instrument, the dynamics, and pitches within the piece.</p>
 
@@ -59,7 +65,7 @@
               </a>
             </div>
           </div>
-
+        </div>
       </div>     
 
       <div class="large-7 medium-7 columns">

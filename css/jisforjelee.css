@@ -1,0 +1,13 @@
+.floating-fixed-width {
+    min-width: 0%;
+    padding: 0px;
+}
+
+.floating-fixed-width.fixed {
+    left: auto;
+    padding-top: 10px;
+}
+
+.floating-fixed-width-disabled {
+    position: static !important;
+}
